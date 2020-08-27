@@ -13,6 +13,10 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
     <link href="/css/style.css" rel="stylesheet" type="text/css" />
     <title>mini chat</title>
   </head>
@@ -22,10 +26,27 @@
         <form>
           <h2>Auth</h2>
           <div class="form-group">
-            <label for="email">Email</label>
-            <input type="text" class="form-control" />
+            <label for="name">name</label>
+            <input type="text" class="form-control name" />
           </div>
           <button class="btn btn-outline-primary connect">Connect</button>
+        </form>
+      </div>
+      <div class="message">
+        <div class="msg"></div>
+        <div class="allMessage"></div>
+        <form>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              class="form-control"
+              id="message"
+            ></textarea>
+          </div>
+          <button class="btn btn-outline-primary" id="btnSend">
+            send message
+          </button>
         </form>
       </div>
     </div>

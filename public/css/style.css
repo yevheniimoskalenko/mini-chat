@@ -1,3 +1,14 @@
 * {
   font-family: 'Montserrat', sans-serif;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  box-sizing: border-box;
+}
+.message {
+  display: none;
+}
